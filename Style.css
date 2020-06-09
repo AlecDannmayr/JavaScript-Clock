@@ -68,12 +68,12 @@ body {
     width: 10px;
     height: 50%;
     background-color: black;
-    border: 0.5px solid grey ;
+    border: 0px solid white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transform-origin: bottom;
     z-index: 10;
-    opacity: 50%;
+    opacity: 100%;
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
@@ -83,7 +83,7 @@ body {
     background-color: red;
 }
 
-.clock .hand.minuet {
+.clock .hand.minute {
     width: 7px;
     height: 40%;
     background-color: black;
