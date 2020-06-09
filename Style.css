@@ -39,6 +39,20 @@ body {
 .clock .number10 { --rotation: 300deg; }
 .clock .number11 { --rotation: 330deg; }
 
+.clock::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index: 11px;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
 .clock .hand  {
     --rotation: 90;
     position: absolute;
