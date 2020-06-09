@@ -7,6 +7,12 @@
 
 body {
     background: linear-gradient(to right, rgb(62, 66, 68), rgb(190, 175, 175));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    
 }
 
 .clock {
